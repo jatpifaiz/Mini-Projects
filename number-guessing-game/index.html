@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 class="main-title">
+        Select the Difficulty <br />
+        and Guess the Number!
+      </h1>
+      <section class="level-selection-container">
+        <h3>Pilih Tingkat Kesulitan</h3>
+        <div class="level-selection">
+          <div class="level-container">
+            <button class="level-handler" id="easy">Mudah</button>
+            <p class="health">
+              <img
+                src="love-always-wins.png"
+                alt="heart"
+                class="health-img"
+                width="30px"
+                height="30px"
+              />
+              health: 7
+            </p>
+            <p>range numbers: 1 - 10</p>
+          </div>
+          <div class="level-container">
+            <button class="level-handler" id="medium">Sedang</button>
+            <p class="health">
+              <img
+                src="love-always-wins.png"
+                alt="heart"
+                class="health-img"
+                width="30px"
+                height="30px"
+              />
+              health: 5
+            </p>
+            <p>range numbers: 1 - 15</p>
+          </div>
+          <div class="level-container">
+            <button class="level-handler" id="hard">Sulit</button>
+            <p class="health">
+              <img
+                src="love-always-wins.png"
+                alt="heart"
+                class="health-img"
+                width="30px"
+                height="30px"
+              />
+              health: 3
+            </p>
+            <p>range numbers: 1 - 20</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="container">
+        <div class="game-header">
+          <p id="score">Score: 0</p>
+          <h2 id="difficulty-label">Difficulty: -</h2>
+          <p id="stats">Stats</p>
+        </div>
+
+        <p class="alert" id="announcement"></p>
+
+        <div class="answer-container">
+          <p class="answer">?</p>
+        </div>
+
+        <div class="game-body">
+          <button id="decrease-handler" class="number-handler">-</button>
+          <div class="">
+            <input type="number" class="input-guess" id="input-guess" />
+          </div>
+          <button id="increase-handler" class="number-handler">+</button>
+        </div>
+
+        <div class="game-footer">
+          <p id="health">Health: 0</p>
+          <div class="handler-container"></div>
+          <p id="hint">!!</p>
+        </div>
+      </section>
+    </main>
+    <div id="controls"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

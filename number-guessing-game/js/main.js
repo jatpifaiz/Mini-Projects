@@ -178,7 +178,9 @@ function startGame(config) {
 function resetGame() {
   resetButton.remove();
   container.style.display = "none";
-  levelSelectionContainer.style.display = "block";
+  container.classList.remove("container");
+  levelSelectionContainer.style.display = "flex";
+  document.getElementById("announcement").innerText = "";
   hint.innerText = "";
   inputGuess.value = "";
   currentGame = null;

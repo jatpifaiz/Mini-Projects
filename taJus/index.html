@@ -23,7 +23,7 @@
         <h1><span>ta</span>Jus</h1>
         <div class="right">
           <a href="#contact">Contact</a>
-          <button href="" class="cta">Lihat Varian Rasa</button>
+          <button class="cta" id="cta">Lihat Varian Rasa</button>
         </div>
       </nav>
     </header>
@@ -155,5 +155,12 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const cta = document.getElementById("cta");
+      cta.addEventListener("click", () => {
+        window.location.href = "#bento";
+      });
+    </script>
   </body>
 </html>

@@ -17,9 +17,6 @@ h2 {
   font-family: "Playfair Display", sans-serif;
 }
 
-:root {
-}
-
 /* Navbar start  */
 .navbar {
   display: flex;
@@ -312,6 +309,7 @@ h2 {
   height: 100vh;
   width: 100%;
   padding: 2rem;
+  margin-block-end: 10em;
 }
 
 .text-wrapper {

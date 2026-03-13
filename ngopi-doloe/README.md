@@ -41,16 +41,20 @@ Buka file "index.html" di browser.
 ## Preview
 
 **Hero Section**
-![Hero Section Preview](docs/images/ngopidoloe-hero-sec-preview.png)
+
+<p> <img src="docs/images/ngopidoloe-hero-sec-preview.png" width="65%" /> <img src="docs/images/ngopidoloe-hero-sec-mobile-preview.png" width="25%" /> </p>
 
 **About Section**
-![About Section Preview](docs/images/ngopidoloe-about-sec-preview.png)
+
+<p> <img src="docs/images/ngopidoloe-about-sec-preview.png" width="65%" /> <img src="docs/images/ngopidoloe-about-sec-mobile-preview.png" width="25%" /> </p>
 
 **Menu Showcase**
-![Menu Showcase Preview](docs/images/ngopiedoloe-menu-showcase-preview.png)
+
+<p> <img src="docs/images/ngopiedoloe-menu-showcase-preview.png" width="65%" /> <img src="docs/images/ngopiedoloe-menu-showcase-mobile-preview.png" width="25%" /> </p>
 
 **Contact Section**
-![Contact Section Preview](docs/images/ngopidoloe-contact-sec-preview.png)
+
+<p> <img src="docs/images/ngopidoloe-contact-sec-preview.png" width="65%" /> <img src="docs/images/ngopidoloe-contact-sec-mobile-preview.png" width="25%" /> </p>
 
 ## Author
 

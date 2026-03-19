@@ -54,6 +54,16 @@ input[type="checkbox"] {
   padding: 3px 5px;
   background-color: #3d74b6;
   color: #fbf5de;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #8bb5e8;
+}
+
+.btn:active {
+  background-color: #dc3c22;
 }
 
 .remove-btn {

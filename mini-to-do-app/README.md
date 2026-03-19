@@ -6,7 +6,7 @@ Mini To-Do App adalah aplikasi sederhana berbasis browser untuk menambahkan dan 
 
 Mini To-Do App merupakan aplikasi sederhana yang dibuat untuk melatih manipulasi DOM menggunakan JavaScript.
 
-Pengguna dapat menambahkan tugas, menandai tugas sebagai selesai, menghapus tugas, serta memfilter tugas berdasarkan statusnya. Semua data tugas disimpan sementara menggunakan array di JavaScript sehingga akan hilang ketika halaman di-refresh.
+User dapat menambahkan tugas, menandai tugas sebagai selesai, menghapus tugas, serta memfilter tugas berdasarkan statusnya. Semua data tugas disimpan sementara menggunakan array di JavaScript sehingga akan hilang ketika halaman di-refresh.
 
 ## Features
 
@@ -40,21 +40,25 @@ Buka file "index.html" di browser.
 
 ## Preview
 
-**Bla**
+**Blank To-Do List**
 
-<p> <img src="docs/images/nostalify-rain-collection-sec-preview.png" width="65%" /> <img src="docs/images/nostalify-rain-collection-sec-mobile-preview.png" width="25%" /> </p>
+<p> <img src="docs/images/blank-to-do-list-preview.png" width="65%" /> <img src="docs/images/blank-to-do-list-mobile-preview.png" width="25%" /> </p>
 
-**Bla**
+**Pop Up Add To-Do**
 
-<p> <img src="docs/images/nostalify-rain-collection-sec-preview.png" width="65%" /> <img src="docs/images/nostalify-rain-collection-sec-mobile-preview.png" width="25%" /> </p>
+<p> <img src="docs/images/add-to-do-preview.png" width="65%" /> <img src="docs/images/add-to-do-mobile-preview.png" width="25%" /> </p>
 
-**Bla**
+**All To-Do List**
 
-<p> <img src="docs/images/nostalify-rain-collection-sec-preview.png" width="65%" /> <img src="docs/images/nostalify-rain-collection-sec-mobile-preview.png" width="25%" /> </p>
+<p> <img src="docs/images/all-to-do-list-preview.png" width="65%" /> <img src="docs/images/all-to-do-list-mobile-preview.png" width="25%" /> </p>
 
-**Bla**
+**Completed To-Do List**
 
-<p> <img src="docs/images/nostalify-rain-collection-sec-preview.png" width="65%" /> <img src="docs/images/nostalify-rain-collection-sec-mobile-preview.png" width="25%" /> </p>
+<p> <img src="docs/images/completed-to-do-preview.png" width="65%" /> <img src="docs/images/completed-to-do-mobile-preview.png" width="25%" /> </p>
+
+**Uncompleted To-Do List**
+
+<p> <img src="docs/images/uncompleted-to-do-preview.png" width="65%" /> <img src="docs/images/uncompleted-to-do-mobile-preview.png" width="25%" /> </p>
 
 ## Author
 
